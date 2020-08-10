@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" href = "style.css">
+    
+    <title>Hangman</title>
+
+</head>
+<body>
+    <h1>Hangman</h1>
+    <div id = "guess">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+    <img id = "hangmanPic" src="Images/0.jpg" alt="potence">
+    <div class = main>
+      <p><strong>Good luck!</strong></p>
+      <p id = "wordSpotlight"></p>
+      <div id = "keyboard"></div>
+      <button class = "btnReset" onClick="reset()">Reset</button>
+  </div>
+      
+    <script src ='./JS/Hangman.js'></script>
+    
+</body>
+</html>
